@@ -8,7 +8,7 @@
 ## 環境設定
 
 ### pyenvとanacondaのインストール
-本演習は，Pythonの各種環境・ライブラリを一括で用意できるanacondaを利用します．まずは，以下を参考に手元のマシンにanacondaをインストールしてください．
+本演習は，Pythonの各種環境・ライブラリ・jupyterを一括で用意できるanacondaを利用します．まずは，以下を参考に手元のマシンにanacondaをインストールしてください．また，詳しい人は，各自で好みの環境を構築してもらって構いません．
 
 - 参考: https://qiita.com/shizuma/items/027167c6257f1c9d2a6f
 
@@ -25,23 +25,10 @@ git clone git://github.com/yyuu/pyenv-update.git ~/.pyenv/plugins/pyenv-update
 pyenv update
 pyenv install anaconda3-5.2.0
 pyenv global anaconda3-5.2.0
-conda install gensim
-conda install networkx
-```
-- 詳しい人は，各自で好みの環境を構築してもらって構いません．
-
-### 4. nltk corpusのインストール
-
-pythonを起動し，以下のコマンドから，nltkのcorpusからstopwordsをインストールしておいてください．
-
-```
-$ python 
->>> import nltk
->>> nltk.download()
 ```
 
-### 5. この演習コンテンツのダウンロードとnotebookの実行
-適当なフォルダに移動してもらって，このリポジトリをクローンしてください．
+### 4. この演習コンテンツのダウンロードとnotebookの実行
+適当なフォルダに移動し，このリポジトリをクローンしてください．
 
 ```
 $ git clone https://github.com/tyamamot/h30iro.git
@@ -54,7 +41,7 @@ $ cd h30iro
 $ ipython notebook
 ```
 
-### 6. この演習コンテンツの更新
+### 5. この演習コンテンツの更新
 ローカルにあるこのリポジトリのフォルダに移動して，プルしてください．
 
 ```
@@ -63,4 +50,9 @@ $ git pull
 ```
 
 
+## レポート提出について
 
+演習課題その1からその4の4つの課題のうち，***2つを選択し***レポートを提出すること．
+
+### 締切
+- 2019年1月25日（金） 23:50
