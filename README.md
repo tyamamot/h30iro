@@ -1,4 +1,5 @@
 # H30 情報組織化・検索論 演習ページ
+情報学研究科 社会情報学専攻 助教 
 山本 岳洋 (tyamamot at dl.kuis.kyoto-u.ac.jp)
 
 ## 概要
