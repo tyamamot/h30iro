@@ -34,11 +34,11 @@ pyenv global anaconda3-5.2.0
 $ git clone https://github.com/tyamamot/h30iro.git
 ```
 
-anacondaが正常にインストールできていれば，ターミナル上で下記のコマンドを打てばブラウザ（http://localhost:8888）が立ち上がるはずです．
+anacondaが正常にインストールできていれば，ターミナル上で下記のコマンドを打てばブラウザ（ http://localhost:8888 ）が立ち上がるはずです．
 
 ```
 $ cd h30iro
-$ ipython notebook
+$ jupyter notebook
 ```
 
 ### 5. この演習コンテンツの更新
