@@ -1,8 +1,8 @@
-# H29 情報組織化・検索論 演習ページ
+# H30 情報組織化・検索論 演習ページ
 山本 岳洋 (tyamamot at dl.kuis.kyoto-u.ac.jp)
 
 ## 概要
-本リポジトリは，平成29年度『情報組織化・検索論』に対応するページです．講義で学んだアルゴリズムを実際のデータに適用するために必要な技術を学んでもらうことを目的としています．この演習のスタンスとして，アルゴリズムをゼロから実装するというよりは，可能な限り既存のライブラリやツールを使って，アルゴリズムを実際のデータに適用する事ができるようになることを重要視します．
+本リポジトリは，平成30年度 京都大学 大学院情報学研究科 社会情報学専攻 講義科目「情報組織化・検索論」に対応するページです．講義で学んだアルゴリズムを実際のデータに適用するために必要な技術を学んでもらうことを目的としています．この演習のスタンスとして，アルゴリズムをゼロから実装するというよりは，可能な限り既存のライブラリやツールを使って，アルゴリズムを実際のデータに適用する事ができるようになることを重要視します．
 
 ## 環境設定
 
@@ -22,8 +22,8 @@
 ```
 git clone git://github.com/yyuu/pyenv-update.git ~/.pyenv/plugins/pyenv-update
 pyenv update
-pyenv install anaconda3-2.5.0
-pyenv global anaconda3-2.5.0
+pyenv install anaconda3-5.2.0
+pyenv global anaconda3-5.2.0
 conda install gensim
 conda install networkx
 ```
@@ -43,13 +43,13 @@ $ python
 適当なフォルダに移動してもらって，このリポジトリをクローンしてください．
 
 ```
-$ git clone https://github.com/tyamamot/h29iro.git
+$ git clone https://github.com/tyamamot/h30iro.git
 ```
 
 anacondaが正常にインストールできていれば，ターミナル上で下記のコマンドを打てばブラウザ（http://localhost:8888）が立ち上がるはずです．
 
 ```
-$ cd h29iro
+$ cd h30iro
 $ ipython notebook
 ```
 
@@ -57,7 +57,7 @@ $ ipython notebook
 ローカルにあるこのリポジトリのフォルダに移動して，プルしてください．
 
 ```
-$ cd h29iro
+$ cd h30iro
 $ git pull
 ```
 
